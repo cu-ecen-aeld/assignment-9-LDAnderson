@@ -1,0 +1,4 @@
+config BR2_PACKAGE_LDD
+       bool "LDD"
+       help
+         Includes the scull sample driver, hello world and misc-modules components
