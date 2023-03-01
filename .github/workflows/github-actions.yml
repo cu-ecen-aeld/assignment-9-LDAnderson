@@ -10,7 +10,7 @@ jobs:
           - name: Checkout submodules
             run: git submodule update --init --recursive
           - uses: webfactory/ssh-agent@v0.5.3
-            with:
+            env:
                 ssh-private-key: "test"
           - name: Run full test
             env:
